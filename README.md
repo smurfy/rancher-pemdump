@@ -32,7 +32,7 @@ Sample docker-compose.yml
     version: '2'
     services:
       jabber-pemdump:
-        image: MYREPOSITORY/pemdump
+        image: smurfynet/rancher-pemdump
         environment:
           CERT_NAME: jabber-mydomain
         stdin_open: true
